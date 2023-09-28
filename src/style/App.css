@@ -36,3 +36,396 @@
     transform: rotate(360deg);
   }
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1920px;
+}
+header{
+  background: url(../assets/header-BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 582px;
+  width: 100%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+  padding-top: 30px;
+}
+
+nav .links{
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 40%;
+  align-items: center;
+}
+nav .links img{
+  width: 4px;
+  align-self: center;
+
+}
+nav .links ul{
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 60%;
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.nav-button{
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 11px 17px;
+}
+.header .title h1{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 71px;
+  line-height: 78px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.header .title h2{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 35px;
+}
+.header .title .button button a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.header .title .button button{
+  background: #5AB963;
+  border: none;
+  border-radius: 4px;
+  width: 160px;
+  height: 60px;
+}
+.header .title .button{
+  padding-top: 60px;
+}
+.header .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 115px;
+}
+
+
+.white-container .main-text p{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 36px;
+  color: #999999;
+}
+.white-container{
+  width: 81.25%;
+  height: 528px;
+  margin: 120px auto;
+}
+.white-container .main-text{
+  width: 35%;
+}
+.white-container .main-text b{
+  color: #000;
+  font-weight: 700;
+}
+.white-container .block .block-text h2{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-top: 25px;
+}
+.white-container .block .block-text p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+  font-family: 'IBM Plex Mono', monospace;
+  padding-top: 13px;
+}
+.white-container .block{
+  width: 17.5%;
+  height: 48px;
+}
+.white-container .blocks{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 105px;
+}
+
+.eggs{
+  width: 98%;
+  margin: 0 auto;
+}
+.eggs img{
+  width: 100%;
+}
+
+.more-about-us{
+  width: 100%;
+  height: 398px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.more-about-us .text{
+  width: 47.5%;
+  height: 144px;
+}
+.more-about-us .text p{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: #999999;
+  text-align: center;
+}
+.more-about-us .text p b{
+  color: #000;
+  font-weight: 700;
+}
+.more-about-us .p-mini p{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5AB963;
+  font-family: 'IBM Plex Mono', monospace;
+  padding-top: 6px;
+}
+
+.container{
+  width: 91.25%;
+  margin: 120px auto;
+}
+.pomidors .text .title p, .ovsyanka .text .title p{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 36px;
+  color: #999999;
+}
+.pomidors .text .title p b, .ovsyanka .text .title p b{
+  color: #000;
+  font-weight: 700;
+}
+.pomidors .text .p p, .ovsyanka .text .p p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+  font-family: 'IBM Plex Mono', monospace;
+  padding-top: 13px;
+}
+.premium h3{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.premium p{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5AB963;
+  font-family: 'IBM Plex Mono', monospace;
+  padding-top: 12px;
+}
+.pomidors .text{
+  width: 25%;
+  margin-left: 100px;
+}
+.ovsyanka .text{
+  width: 25.7%;
+}
+.pomidors{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 90px;
+}
+.ovsyanka{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 110px;
+}
+.ovsyanka img{
+  margin-left: 100px;
+}
+
+.party-on{
+  width: 91.25%;
+  height: 111px;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.party-on .text .on{
+  width: 150px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.party-on .text .on p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5AB963;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.on img{
+  width: 50px;
+  height: 2px;
+  padding-left: 20px;
+}
+.party-on .text p{
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 36px;
+  color: #999999;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.party-on .text p b{
+  color: #000;
+  font-weight: 400;
+}
+.party-on .text{
+  width: 41%;
+  height: 111px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.party-on .button button a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.party-on .button button{
+  background: #5AB963;
+  border: none;
+  border-radius: 4px;
+  width: 160px;
+  height: 60px;
+}
+
+footer{
+  background-color: #0A0E1A;
+  width: 100%;
+  height: 399px;
+}
+.footer{
+  width: 91.25%;
+  height: 129px;
+  margin: 0 auto;
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .left p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #666666;
+}
+.footer .right ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 70%;
+}
+.footer .right ul li{
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.footer .right .ul{
+  justify-content: flex-start;
+}
+.footer .right .ul li:last-child{
+  padding-top: 25px;
+}
+.footer .right{
+  display: flex;
+  flex-basis: 50%;
+}
+
+
+@media(max-width: 1200px){
+  nav .links{
+      flex-basis: 60%;
+  }
+}
+@media(max-width: 900px){
+  nav .links{
+      flex-basis: 75%;
+  }
+  .white-container .main-text{
+      width: 80%;
+  }
+  .pomidors img, .ovsyanka img{
+      width: 50%;
+      height: 50%;
+  }
+  .pomidors .text, .ovsyanka .text{
+      width: 45%;
+      margin-left: 50px;
+  }
+  .ovsyanka img{
+      margin-left: 50px;
+  }
+  .party-on .text{
+      width: 50%;
+  }
+  .footer .right ul{
+      flex-basis: 80%;
+  }
+  .footer .right{
+      flex-basis: 65%;
+  }
+  footer{
+      height: 300px;
+  }
+}
