@@ -1,42 +1,6 @@
-
-import './style/App.css';
-
-
-const link = '#';
-
-
-function App() {
+import './main.scss'
+export default function Main() {
   return (
-    <div className="App">
-      <header>
-        <nav>
-            <div className="logo">
-                <img src="./images/logo.svg" alt=""/>
-            </div>
-            <div className="links">
-                <ul>
-                    <li><a href={link}>Features</a></li>
-                    <li><a href={link}>Premium</a></li>
-                    <li><a href={link}>Pricing</a></li>
-                    <li><a href={link}>About</a></li>
-                </ul>
-                <img src="/images/point.svg" alt=""/>
-
-                <a href={link}>Sign in</a>
-                <a href={link} className="nav-button">Get Started</a>
-            </div>
-        </nav>
-        <div className="header">
-            <div className="title">
-                <h1>Propel your business.</h1>
-                <h2>Propel comes with everything you need to get your business rolling.</h2>
-                <div class="button">
-                    <button><a href={link}>Get Started</a></button>
-                </div>
-            </div>
-        </div>
-    </header>
-    
     <main>
         <div className="white-container">
             <div className="main-text">
@@ -120,42 +84,9 @@ function App() {
                 <p><b>Quas suscipit ad mea.</b> Pri cu dico labores officiis odio principes complectitur ad sea.</p>
             </div>
             <div className="button">
-                <button><a href={link}>Get Started</a></button>
+                <button><a href="#">Get Started</a></button>
             </div>
         </div>
     </main>
-
-
-
-    <footer>
-        <div className="footer">
-            <div className="left">
-                <img src="./images/logo.svg" alt=""/>
-                <p>© 2018 Spoon Inc, All rights reserved.</p>
-            </div>
-            <div className="right">
-                <ul>
-                    <li>Features</li>
-                    <li>Premium</li>
-                    <li>Pricing</li>
-                </ul>
-                <ul>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                </ul>
-                <ul className="ul">
-                    <li>Image License Info</li>
-                    <li>Powered by Webflow</li>
-                </ul>
-                <div className="soc">
-                    <img src="./images/soc.png" alt=""/>
-                </div>
-            </div>
-        </div>
-    </footer>
-    </div>
-  );
+  )
 }
-
-export default App;
